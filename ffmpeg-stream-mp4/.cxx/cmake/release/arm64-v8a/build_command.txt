@@ -1,0 +1,23 @@
+Executable : /home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_FIND_ROOT_PATH=/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/prefab/arm64-v8a/prefab
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=/home/kovacs/Android/Ndk/android-ndk-r20b
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=/home/kovacs/Android/Ndk/android-ndk-r20b
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/build/intermediates/cmake/release/obj/arm64-v8a
+-DCMAKE_MAKE_PROGRAM=/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_TOOLCHAIN=clang
+-B/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

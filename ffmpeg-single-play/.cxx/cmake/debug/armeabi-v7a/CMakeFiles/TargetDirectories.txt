@@ -1,0 +1,3 @@
+/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-play/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-play/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-play/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-player.dir

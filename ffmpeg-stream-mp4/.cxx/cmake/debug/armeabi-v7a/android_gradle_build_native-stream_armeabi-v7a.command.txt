@@ -1,0 +1,7 @@
+Executable : /home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/armeabi-v7a
+native-stream
+jvmArgs : 
+

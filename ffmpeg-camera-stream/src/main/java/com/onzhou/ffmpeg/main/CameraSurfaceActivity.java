@@ -75,7 +75,7 @@ public class CameraSurfaceActivity extends AbsBaseActivity {
     public void onEncodeStart(View view) {
         mBtnEncodeStartMP4.setEnabled(false);
         mBtnEncodeStopMP4.setEnabled(true);
-        mCameraV1.encodeStart("rtmp://192.168.1.24:1935/onzhou/live");
+        mCameraV1.encodeStart("rtmp://192.168.43.92:1935/live/test");
     }
 
     public void onEncodeStop(View view) {

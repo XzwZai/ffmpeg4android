@@ -1,0 +1,21 @@
+Executable : /home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-muxer-code
+-DCMAKE_FIND_ROOT_PATH=/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-muxer-code/.cxx/cmake/debug/prefab/armeabi-v7a/prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_NDK=/home/kovacs/Android/Ndk/android-ndk-r20b
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_ANDROID_NDK=/home/kovacs/Android/Ndk/android-ndk-r20b
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-muxer-code/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_MAKE_PROGRAM=/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-B/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-muxer-code/.cxx/cmake/debug/armeabi-v7a
+-GNinja
+jvmArgs : 
+
+Build command args:

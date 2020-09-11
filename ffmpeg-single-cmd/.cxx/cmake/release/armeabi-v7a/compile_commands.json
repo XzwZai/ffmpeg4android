@@ -1,0 +1,31 @@
+[
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dffmpeg_cmd_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/ffmpeg-cmd.dir/src/main/cpp/ffmpeg_cmd.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_cmd.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_cmd.c"
+},
+
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dffmpeg_cmd_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/ffmpeg-cmd.dir/src/main/cpp/cmdutils.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/cmdutils.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/cmdutils.c"
+},
+
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dffmpeg_cmd_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/ffmpeg-cmd.dir/src/main/cpp/ffmpeg_filter.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_filter.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_filter.c"
+},
+
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dffmpeg_cmd_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/ffmpeg-cmd.dir/src/main/cpp/ffmpeg_opt.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_opt.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_opt.c"
+},
+
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dffmpeg_cmd_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include -I../../../../src/main/cpp  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/ffmpeg-cmd.dir/src/main/cpp/ffmpeg_mod.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_mod.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-cmd/src/main/cpp/ffmpeg_mod.c"
+}
+]

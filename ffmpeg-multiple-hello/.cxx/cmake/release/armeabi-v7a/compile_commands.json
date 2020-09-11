@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-multiple-hello/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dffmpeg_hello_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-multiple/libs/armeabi-v7a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o CMakeFiles/ffmpeg-hello.dir/src/main/cpp/ffmpeg-hello.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-multiple-hello/src/main/cpp/ffmpeg-hello.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-multiple-hello/src/main/cpp/ffmpeg-hello.c"
+}
+]

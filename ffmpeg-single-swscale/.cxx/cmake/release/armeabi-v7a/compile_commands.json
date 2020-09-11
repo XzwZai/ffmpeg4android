@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_swscale_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-swscale.dir/src/main/cpp/native_code.cpp.o -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/src/main/cpp/native_code.cpp",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/src/main/cpp/native_code.cpp"
+},
+
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_swscale_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-swscale.dir/src/main/cpp/native_swscale.cpp.o -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/src/main/cpp/native_swscale.cpp",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/src/main/cpp/native_swscale.cpp"
+}
+]

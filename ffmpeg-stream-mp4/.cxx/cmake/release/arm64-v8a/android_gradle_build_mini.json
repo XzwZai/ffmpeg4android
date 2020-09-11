@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/platforms.cmake",
+    "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-stream-Release-arm64-v8a": {
+      "artifactName": "native-stream",
+      "buildCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/arm64-v8a\" native-stream",
+      "abi": "arm64-v8a",
+      "output": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/build/intermediates/cmake/release/obj/arm64-v8a/libnative-stream.so",
+      "runtimeFiles": [
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libavformat.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libavdevice.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libavfilter.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libavcodec.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libavutil.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libpostproc.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libswresample.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libavresample.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libswscale.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libx264.a",
+        "/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/lib/libfdk-aac.a"
+      ]
+    }
+  }
+}

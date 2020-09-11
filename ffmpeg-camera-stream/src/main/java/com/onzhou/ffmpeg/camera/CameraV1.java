@@ -3,6 +3,7 @@ package com.onzhou.ffmpeg.camera;
 import android.app.Activity;
 import android.graphics.ImageFormat;
 import android.hardware.Camera;
+import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -10,6 +11,7 @@ import android.view.SurfaceView;
 import com.onzhou.ffmpeg.stream.NativeStreamer;
 
 import java.io.IOException;
+import java.util.List;
 
 import io.reactivex.schedulers.Schedulers;
 
@@ -48,11 +50,28 @@ public class CameraV1 implements ICamera, SurfaceHolder.Callback, Camera.Preview
         mCamera = openCamera();
     }
 
+    public void parameters(Camera camera) {
+        List<Camera.Size> pictureSizes = camera.getParameters().getSupportedPictureSizes();
+        List<Camera.Size> previewSizes = camera.getParameters().getSupportedPreviewSizes();
+        Camera.Size psize;
+        for (int i = 0; i < pictureSizes.size(); i++) {
+            psize = pictureSizes.get(i);
+            Log.i("pictureSize",psize.width+" x "+psize.height);
+        }
+        for (int i = 0; i < previewSizes.size(); i++) {
+            psize = previewSizes.get(i);
+            Log.i("previewSize",psize.width+" x "+psize.height);
+        }
+    }
+
     @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
         try {
+            parameters(mCamera);
             setCameraDisplayOrientation(mCameraId, mCamera);
             Camera.Parameters parameters = mCamera.getParameters();
+            parameters.setPictureSize(640, 480);
+            parameters.setPreviewSize(640, 480);
             parameters.setPreviewFormat(ImageFormat.NV21);
             mCamera.setParameters(parameters);
             mCamera.setPreviewDisplay(holder);

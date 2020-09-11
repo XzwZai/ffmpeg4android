@@ -1,0 +1,7 @@
+Executable : /home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a
+main
+jvmArgs : 
+

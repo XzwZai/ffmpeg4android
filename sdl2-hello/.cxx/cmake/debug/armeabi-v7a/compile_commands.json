@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dmain_EXPORTS -I../../../../libs/armeabi-v7a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/main.dir/src/main/cpp/sdl2_hello.c.o   -c /home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/src/main/cpp/sdl2_hello.c",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/src/main/cpp/sdl2_hello.c"
+}
+]

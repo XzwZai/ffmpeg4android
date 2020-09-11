@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_stream_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -std=gnu++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles/native-stream.dir/src/main/cpp/native_stream.cpp.o -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/src/main/cpp/native_stream.cpp",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/src/main/cpp/native_stream.cpp"
+},
+
+{
+  "directory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_stream_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/common-static/libs/arm64-v8a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -std=gnu++11 -O2 -DNDEBUG  -fPIC   -o CMakeFiles/native-stream.dir/src/main/cpp/mp4_stream.cpp.o -c /home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/src/main/cpp/mp4_stream.cpp",
+  "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/src/main/cpp/mp4_stream.cpp"
+}
+]

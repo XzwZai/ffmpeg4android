@@ -1,0 +1,50 @@
+{
+  "stringTable": {
+    "0": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_swscale_EXPORTS -I/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=gnu++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/platforms.cmake",
+    "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-swscale-Debug-armeabi-v7a": {
+      "buildCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/.cxx/cmake/debug/armeabi-v7a\" native-swscale",
+      "buildType": "debug",
+      "toolchain": "565322979",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-swscale",
+      "files": [
+        {
+          "src": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/src/main/cpp/native_code.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/src/main/cpp/native_swscale.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single-swscale/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-swscale.so",
+      "runtimeFiles": [
+        "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/libffmpeg.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "565322979": {
+      "cppCompilerExecutable": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

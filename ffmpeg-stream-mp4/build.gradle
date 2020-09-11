@@ -16,6 +16,9 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.config
+            jniDebuggable true
+            shrinkResources true
+            minifyEnabled true
         }
         release {
             signingConfig signingConfigs.config
@@ -87,3 +90,20 @@ def loadSignProperties() {
     return buildProperties
 }
 
+android {
+    buildTypes {
+        debug {
+            jniDebuggable true
+            shrinkResources true
+            minifyEnabled true
+        }
+        release {
+            jniDebuggable true
+            shrinkResources true
+            minifyEnabled true
+        }
+    }
+    packagingOptions {
+        pickFirst 'lib/armeabi-v7a/libSDL2.so'
+    }
+}

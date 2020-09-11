@@ -1,0 +1,45 @@
+{
+  "stringTable": {
+    "0": "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dmain_EXPORTS -I../../../../libs/armeabi-v7a/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/platforms.cmake",
+    "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "main-Debug-armeabi-v7a": {
+      "buildCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a\" main",
+      "buildType": "debug",
+      "toolchain": "577563837",
+      "abi": "armeabi-v7a",
+      "artifactName": "main",
+      "files": [
+        {
+          "src": "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/src/main/cpp/sdl2_hello.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so",
+      "runtimeFiles": [
+        "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/libs/armeabi-v7a/libSDL2.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "577563837": {
+      "cCompilerExecutable": "/home/kovacs/Android/Ndk/android-ndk-r20b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

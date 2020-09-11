@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/platforms.cmake",
+    "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-encode-Release-armeabi-v7a": {
+      "artifactName": "native-encode",
+      "buildCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/.cxx/cmake/release/armeabi-v7a\" native-encode",
+      "abi": "armeabi-v7a",
+      "output": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-encode.so",
+      "runtimeFiles": [
+        "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-single/libs/armeabi-v7a/libffmpeg.so",
+        "/home/kovacs/WorkSpace/ffmpeg4android/libyuv-single/libs/armeabi-v7a/libyuv.so"
+      ]
+    }
+  }
+}

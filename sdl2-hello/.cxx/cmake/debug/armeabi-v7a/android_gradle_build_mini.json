@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
+    "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/platforms.cmake",
+    "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "main-Debug-armeabi-v7a": {
+      "artifactName": "main",
+      "buildCommand": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/.cxx/cmake/debug/armeabi-v7a\" main",
+      "abi": "armeabi-v7a",
+      "output": "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/build/intermediates/cmake/debug/obj/armeabi-v7a/libmain.so",
+      "runtimeFiles": [
+        "/home/kovacs/WorkSpace/ffmpeg4android/sdl2-hello/libs/armeabi-v7a/libSDL2.so"
+      ]
+    }
+  }
+}
