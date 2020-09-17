@@ -1,0 +1,26 @@
+apply from: "$rootDir/module.gradle"
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile project(':libyuv-single')
+}
+
+android {
+    buildTypes {
+        debug {
+            jniDebuggable true
+            shrinkResources true
+            minifyEnabled true
+        }
+        release {
+            jniDebuggable true
+            shrinkResources true
+            minifyEnabled true
+        }
+    }
+    packagingOptions {
+        pickFirst 'lib/armeabi-v7a/libSDL2.so'
+        pickFirst 'lib/armeabi-v7a/libyuv.so'
+    }
+}

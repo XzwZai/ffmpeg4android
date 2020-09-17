@@ -19,6 +19,60 @@
   },
   {
     "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/build-tools/29.0.2/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/build-tools/30.0.2/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/cmake/3.10.2.4988404/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/emulator/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/patcher/v4/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/platform-tools/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/platforms/android-29/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/platforms/android-30/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing /home/kovacs/Android/Sdk/tools/package.xml",
+    "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
+    "tag": "release|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
     "message": "- CMake found in SDK at \u0027/home/kovacs/Android/Sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
     "file": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/CMakeLists.txt",
     "tag": "release|armeabi-v7a"

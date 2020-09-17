@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-encode/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

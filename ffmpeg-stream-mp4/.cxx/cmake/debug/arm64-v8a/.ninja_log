@@ -1,4 +1,4 @@
 # ninja log v5
-0	135	1599713834	CMakeFiles/native-stream.dir/src/main/cpp/native_stream.cpp.o	14a496bc9992220d
-2	167	1599713834	CMakeFiles/native-stream.dir/src/main/cpp/mp4_stream.cpp.o	e8c031215eb929e3
-167	659	1599713835	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-stream.so	164553184edf99d1
+1	396	1599821282	CMakeFiles/native-stream.dir/src/main/cpp/native_stream.cpp.o	14a496bc9992220d
+1	397	1599821282	CMakeFiles/native-stream.dir/src/main/cpp/mp4_stream.cpp.o	e8c031215eb929e3
+397	1461	1599821283	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-stream.so	164553184edf99d1

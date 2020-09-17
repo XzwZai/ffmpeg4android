@@ -1,5 +1,5 @@
 # ninja log v5
-1	17	1599715662	CMakeFiles/native-stream.dir/src/main/cpp/video_publish.cpp.o	d3133a3844f52ef3
-0	134	1599715662	CMakeFiles/native-stream.dir/src/main/cpp/native_publish.cpp.o	b2bf65c07e5cfd1b
-0	150	1599715662	CMakeFiles/native-stream.dir/src/main/cpp/h264_publish.cpp.o	18b76ad728496e2e
-150	181	1599715662	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-stream.so	b910270fb3426837
+0	14	1599821295	CMakeFiles/native-stream.dir/src/main/cpp/video_publish.cpp.o	d3133a3844f52ef3
+0	130	1599821295	CMakeFiles/native-stream.dir/src/main/cpp/native_publish.cpp.o	b2bf65c07e5cfd1b
+0	134	1599821295	CMakeFiles/native-stream.dir/src/main/cpp/h264_publish.cpp.o	18b76ad728496e2e
+134	162	1599821295	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-stream.so	b910270fb3426837

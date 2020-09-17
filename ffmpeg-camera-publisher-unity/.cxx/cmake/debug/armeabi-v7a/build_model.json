@@ -1,13 +1,13 @@
 {
-  "abi": "ARM64_V8A",
+  "abi": "ARMEABI_V7A",
   "abiPlatformVersion": 21,
   "buildSettings": {
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/arm64-v8a",
-    "cmakeServerLogFile": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cxx/debug/arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/armeabi-v7a",
+    "cmakeServerLogFile": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cxx/debug/armeabi-v7a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,17 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/arm64-v8a",
+      "buildRoot": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/armeabi-v7a",
       "cmakeToolchain": "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
-          "name": "CMAKE_CXX_FLAGS",
-          "value": "-frtti -fexceptions"
-        },
-        {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
+          "value": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/prefab/armeabi-v7a/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -37,15 +33,19 @@
         },
         {
           "name": "ANDROID_ABI",
-          "value": "arm64-v8a"
+          "value": "armeabi-v7a"
         },
         {
           "name": "ANDROID_NDK",
           "value": "/home/kovacs/Android/Ndk/android-ndk-r20b"
         },
         {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-21"
+        },
+        {
           "name": "CMAKE_ANDROID_ARCH_ABI",
-          "value": "arm64-v8a"
+          "value": "armeabi-v7a"
         },
         {
           "name": "CMAKE_ANDROID_NDK",
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/build/intermediates/cmake/debug/obj/arm64-v8a"
+          "value": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/build/intermediates/cmake/debug/obj/armeabi-v7a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -70,36 +70,25 @@
         {
           "name": "CMAKE_SYSTEM_VERSION",
           "value": "21"
-        },
-        {
-          "name": "ANDROID_PLATFORM",
-          "value": "android-21"
-        },
-        {
-          "name": "ANDROID_TOOLCHAIN",
-          "value": "clang"
         }
       ]
     }
   },
-  "cxxBuildFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/arm64-v8a",
+  "cxxBuildFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/armeabi-v7a",
   "info": {
-    "abi": "ARM64_V8A",
-    "bitness": 64,
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/arm64-v8a",
+  "originalCxxBuildFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/armeabi-v7a",
   "variant": {
-    "buildSystemArgumentList": [
-      "-DANDROID_PLATFORM\u003dandroid-21",
-      "-DANDROID_TOOLCHAIN\u003dclang"
-    ],
+    "buildSystemArgumentList": [],
     "buildTargetSet": [],
     "cFlagsList": [],
     "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
     "cppFlagsList": [
-      "-frtti -fexceptions"
+      ""
     ],
     "isDebuggableEnabled": true,
     "module": {
@@ -110,12 +99,12 @@
         "ninjaExe": "/home/kovacs/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
       },
       "cmakeToolchainFile": "/home/kovacs/Android/Ndk/android-ndk-r20b/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx",
-      "gradleModulePathName": ":ffmpeg-stream-mp4",
-      "intermediatesFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/build/intermediates",
-      "makeFile": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/CMakeLists.txt",
-      "moduleBuildFile": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/build.gradle",
-      "moduleRootFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4",
+      "cxxFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx",
+      "gradleModulePathName": ":ffmpeg-camera-publisher-unity",
+      "intermediatesFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/build/intermediates",
+      "makeFile": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/CMakeLists.txt",
+      "moduleBuildFile": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/build.gradle",
+      "moduleRootFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -201,14 +190,13 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/build/intermediates/cmake/debug/obj",
+    "objFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A"
+      "ARMEABI_V7A"
     ],
-    "prefabDirectory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/prefab",
+    "prefabDirectory": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-stream-mp4/.cxx/cmake/debug/prefab/arm64-v8a"
+  "prefabFolder": "/home/kovacs/WorkSpace/ffmpeg4android/ffmpeg-camera-publisher-unity/.cxx/cmake/debug/prefab/armeabi-v7a"
 }

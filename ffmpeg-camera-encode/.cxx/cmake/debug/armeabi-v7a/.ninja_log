@@ -1,0 +1,6 @@
+# ninja log v5
+0	14	1599821301	CMakeFiles/native-encode.dir/src/main/cpp/encode_video.cpp.o	d601d98e33b0c2c7
+1	132	1599821301	CMakeFiles/native-encode.dir/src/main/cpp/native_code.cpp.o	93b500a7dc59e1ac
+0	133	1599821301	CMakeFiles/native-encode.dir/src/main/cpp/encode_jpeg.cpp.o	e061ca921ea1e98b
+0	163	1599821301	CMakeFiles/native-encode.dir/src/main/cpp/encode_mp4.cpp.o	c7f84787cbdb9ca4
+163	195	1599821301	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-encode.so	1865df400651177d
